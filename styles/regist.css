@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Estilos para la sección principal */
+main { 
+    display:flex;
+    justify-content:center;
+    align-items:self-end;
+    padding-top: 5%;
+    width: 100%;
+    height: 150px;
+    min-height: 23.2vh;
+}  
+
+/* Estilos barra de navegación */
+.navbar {
+    position: fixed; /* Fija la posición de forma que siempre quede visible */
+    top: 0; /* Coloca la barra en la parte superior */
+    left: 0;
+    right: 0;
+    background-image: url('/media/imag/Nav.png'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen para que cubra la barra de navegación */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-position: center; /* Centra la imagen de fondo */
+    color: #fff;
+    border-style: groove;
+    padding: 10px; 
+    z-index: 3;
+}
+
+/* Estilos para el menú */
+.menu {
+    display: flex;
+    height: 5px;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding: 1%;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 800;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    z-index: 4;
+}
+
+/* Estilo para el logotipo de navegación */
+.logonav {
+    margin-top: -15px;
+}
+
+/* Estilos de las imágenes del menú */
+.menu img {
+    display: flex;
+    justify-content:end;
+    align-items: end;
+    height: 60px;
+}
+
+/* Estilos encabezado */
+.titulo-h1 {
+    display: flex;
+    justify-content: center;
+    color: #0c44fb;
+    text-shadow: #27282a;
+}
+
+/* Estilos enlaces */
+a {
+    text-decoration: none;
+    all: unset;
+    cursor: pointer;
+}
+
+/* Estilos encabezado */
+header{
+    background-color: #27282a;
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+    background-image: url('/media/imag/wallpaper2.jpg');
+    background-size: cover; /* Esto ajusta la imagen al tamaño de la ventana del navegador */
+    background-repeat: no-repeat; /* Esto evita la repetición de la imagen */
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "lato", sans-serif;
+}
+  
+/* Estilos formulario de registro */
+.sigFormulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+  
+  /* Estilos formulario */
+.form {
+    background-color: rgb(136, 134, 134);
+    width: 400px;
+    border-radius: 8px;
+    border-style: groove;
+    padding: 20px 40px;
+    box-shadow: 0 10px 25px rgba(92, 99, 105, .2);
+}
+  
+/* Estilos título del formulario */
+.title {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+  
+
+.inputContenedor {
+    position: relative;
+    height: 45px;
+    width: 90%;
+    margin-bottom: 17px;
+}
+  
+
+.input {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 7px;
+    font-size: 16px;
+    padding: 0 20px;
+    outline: none;
+    background: none;
+    z-index: 1;
+}
+  
+  
+.label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 0 4px;
+    background-color: rgb(136, 134, 134);
+    color: rgb(246, 248, 247);
+    font-size: 16px;
+    transition: 0.5s;
+    z-index: 1;
+}
+  
+/* Estilos para el texto de marcador de posición */
+::placeholder {
+    color: transparent;
+}
+  
+/* Estilos para el botón de envío */
+.enviotBtn {
+    display: block;
+    margin-left: auto;
+    padding: 15px 30px;
+    border: none;
+    background-color: #0a6781c0;
+    color: white;
+    border-radius: 6px;
+    border-style:double;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 30px;
+}
+  
+/* Estilos al pasar el mouse sobre el botón de envío */
+.enviotBtn:hover {
+    background-color: #0a6781c0;
+    transform: translateY(-2px);
+}
+
+/* Estilos para el campo de entrada enfocado */
+.input:focus + .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+    color: #27282a;
+}
+  
+/* Estilos para el campo de entrada con contenido */
+.input:not(:placeholder-shown)+ .label {
+    top: -7px;
+    left: 3px;
+    z-index: 10;
+    font-size: 14px;
+    font-weight: 600;
+}
+  
+/* Estilo para el campo de entrada enfocado */
+.input:focus {
+    border: 2px solid #0a6781c0;
+}
+
+/* Estilos imágenes dentro las  las secciones */
+section img {
+    display: flex;
+    border-radius: 40px;
+    padding-top: 15px;
+}
+
+/* Estilos para el pie de página */
+.footer > P {
+    color: white;
+    background-position: center; /* Centra la imagen de fondo */ 
+    padding: 10px; 
+    width: 100%;
+    height:30px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+    font-weight: bolder;
+    text-shadow: #27282a;
+}

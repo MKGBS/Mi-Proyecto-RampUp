@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Estilos para la sección principal */
+main { 
+    display:flex;
+    justify-content:center;
+    align-items:self-end;
+    padding-top: 5%;
+    width: 100%;
+    height: 150px;
+}  
+
+/* Estilos barra de navegación */
+.navbar {
+    position: fixed;
+    top: 0; /* Coloca la barra en la parte superior */
+    left: 0;
+    right: 0;
+    background-image: url('/media/imag/Nav.png'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen para que cubra la barra de navegación */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-position: center; /* Centra la imagen de fondo */
+    color: #fff; 
+    border-style: groove;
+    padding: 10px; 
+}
+
+/* Estilos para el menú */
+.menu {
+    display: flex;
+    height: 5px;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding: 1%;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 800;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+/* Estilo para el logotipo de navegación */
+.logonav {
+    margin-top: -15px;
+}
+
+/* Estilos de las imágenes del menú */
+.menu img {
+    display: flex;
+    justify-content:end;
+    align-items: end;
+    height: 60px;
+}
+
+/* Estilos encabezado */
+.cabezeraH1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilos enlaces */
+a {
+    text-decoration: none;
+    all: unset;
+    cursor: pointer;
+}
+
+/* Estilos encabezado */
+header{
+    background-color: #27282a;
+}
+
+/* Estilos imagen de bienvenida */
+.hcj {
+    display: flex;
+    justify-content:flex-start;
+    align-items: start;
+    border-radius: 40px;
+    padding-top: 0%;
+}
+
+/* Estilos para el cuerpo */
+body {
+    background-image: url('/media/imag/wallpaper3.jpg');
+    background-size: cover; /* Esto ajusta la imagen al tamaño de la ventana del navegador */
+    background-repeat: no-repeat; /* Esto evita la repetición de la imagen */
+    padding: 10px;
+}
+  
+/* Estilo de la sección para centrar los párrafos y aplicar flex */
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 60px; /* Espacio entre secciones */
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+/* Estilos imágenes dentro las  las secciones */
+section p {
+    display: flex;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #e3edcf;
+    
+}
+
+/* Estilos imágenes dentro las  las secciones */
+section img {
+    display: flex;
+    border-radius: 40px;
+    padding-top: 15px;
+}
+
+/* Estilos para el pie de página */
+.footer > P {
+    color: white;
+    background-image: url('/media/imag/Estrellas.png'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen para que cubra la barra de navegación */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-position: center; /* Centra la imagen de fondo */
+    color: #fff; 
+    padding: 10px; 
+    width: 100%;
+    height: 30px;
+    padding-top: 2%; /* Espaciado superior del 2% */
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}

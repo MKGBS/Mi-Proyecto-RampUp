@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Estilos para la sección principal */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: self-end;
+    padding-top: 5%;
+    width: 100%;
+    height: 150px;
+}
+
+/* Estilos barra de navegación */
+.navbar {
+    position: fixed;
+    top: 0; /* Coloca la barra en la parte superior */
+    left: 0;
+    right: 0;
+    background-image: url('/media/imag/Nav.png'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen para que cubra la barra de navegación */
+    background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    background-position: center; /* Centra la imagen de fondo */
+    color: #fff; 
+    border-style: groove;
+    padding: 10px; 
+}
+
+/* Estilos para el menú */
+.menu {
+    display: flex;
+    height: 5px;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding: 1%;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 800;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo para el logotipo de navegación */
+.logonav {
+    margin-top: -15px;
+}
+
+/* Estilos de las imágenes del menú */
+.menu img {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    height: 60px;
+}
+
+/* Estilos encabezado */
+.cabezeraH1 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilos títulos en proyectos */
+.proyecto-descripcion > h2 {
+    justify-content: left;
+    margin-left: 5px; 
+}
+
+/* Estilos enlaces */
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+/* Estilo para enlace al formulario */
+.enlaceformulario {
+    background-color: aquamarine;
+    color: aqua;
+}
+
+/* Estilos encabezado */
+header {
+    background-color: rgb(44, 57, 58);
+}
+
+/* Estilos imagen de bienvenida */
+.hcj {
+    display: flex;
+    justify-content:flex-start;
+    align-items: start;
+    border-radius: 40px;
+    padding-top: 0%;
+}
+
+/* Estilos título portafolio */
+.portfolio {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-radius: 50px;
+    border-style: groove;
+}
+
+
+body {
+    background-image: url('/media/imag/wallpaper3.jpg');
+    background-size: cover; /* Esto ajusta la imagen al tamaño de la ventana del navegador */
+    background-repeat: no-repeat; /* Esto evita la repetición de la imagen */
+    padding: 10px;
+    color: #fdfeff;
+}
+
+/* Estilos contenedor principal */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #5276c2;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+    border-style: groove;
+}
+
+/* Estilos imagen dentro contenedor */
+.container-img {
+    border-radius: 40px;
+    border-style: groove;
+}
+
+/* Estilos Encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+/* Estilos para el título h1 */
+h1 {
+    font-size: 36px;
+}
+
+/* Estilos sección proyectos */
+.proyecto {
+    margin-bottom: 30px;
+    display: flex; 
+    align-items: flex-start; 
+}
+
+/* Estilos para imagen sección proyectos */
+.proyecto-descripcion-img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* Estilos para el texto en el lado derecho de las imágenes */
+.proyecto .projecto-descripcion {
+    flex: 1;
+}
+
+/* Estilos h2 proyectos */
+.proyecto h2 {
+    margin: 0; /* Elimina el margen superior del título */
+}
+
+/* Estilos párrafos proyectos */
+.proyecto p {
+    margin-top: 10px; /* Elimina el margen superior del párrafo */
+}
+
+/* Estilos para la sección de texto */
+.textos {
+    display: flex;
+    font-size: medium;
+    margin-top: 30px;
+}
+
+/* Estilos para el título h2 */
+.textos h2 {
+    background-color: #5276c2;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-left: 70px;
+    font-size: 24px;
+    padding-left: 140px;
+    border-radius: 20px;
+    border-style: groove;
+}
+
+/* Estilos lista de desordenada */
+.textos ul {
+    display: flex;
+    justify-content:space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 60px;
+    padding-left: 10px;
+    padding-right: 60px;
+}
+
+/* Estilos sección de contacto */
+.contacto {
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* Estilos enlaces sección de contacto */
+.contacto a {
+    text-decoration: none;
+    color: #0a45f8;
+    font-weight: bold;
+}
+
+/* Estilos para las secciones */
+section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+/* Estilos para el pie de página */
+.footer > p {
+    color: white;
+    background-image: url('/media/imag/Estrellas.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    height: 30px;
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}

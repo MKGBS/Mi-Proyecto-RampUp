@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../styles/form.css">
+</head>
+<body>
+    <!-- Encabezado de la página -->
+    <header>
+        <!-- Barra de navegación -->
+        <nav class="navbar">
+            <!-- Enlaces de navegación -->
+            <div class="menu">
+                <div><a href="/pages/index.html">Inicio</a></div>
+                <div><a href="/pages/biography.html">Biografía</a></div>
+                <div><a href="/pages/portfolio.html">Portfolio</a></div>
+                <div><a href="/pages/form.html">Formulario</a></div>
+                <div><a href="/pages/login.html">Login</a></div>
+                <!-- Imagen 3D de la barra de página - logotipo lado derecho -->
+                <div><img class="logonav"src=/media/imag/3D.png width="100px" height="100px" alt="Printer 3D"/></div>
+            </div>
+            <!-- Logotipo MAKERGIBS de la página -->
+            <div class="menu"><img src="https://images.cooltext.com/5674250.png" width="424" height="103" alt="MAKERGIBS"/>
+            </div>
+         </nav>    
+    </header>
+    <main>
+        <!-- Encabezado principal -->
+        <div class="hcj"><img src="/media/imag/HCJ.png" width="370" height="125" alt="BIENVENIDOS" />
+        </div>
+    </main>
+    <h1 class="cabezeraH1"><img src="https://images.cooltext.com/5674300.png" width="583" height="63" alt="FORMULARIO DE CONTACTO" /></a></h1>
+    <!-- <div class="formulario"></div> -->
+        <form>
+            <fieldset class="fieldset">
+                <div><label for="name">Nombre:</label>
+                     <input type="text" name="nombre" id="name" placeholder="Escriba su nombre..." autofocus></div>
+                     <div><label for="lastname">Apellidos:</label>
+                     <input type="text" name="apellidos" id="lastname" placeholder="Escriba sus apellidos..."></div>
+                     <div> <label for="age">Edad:</label>
+                     <input type="number" name="edad" id="age" placeholder="Escriba o marque ->" tabindex="4"></div>
+                     <div><label for="adress">Dirección:</label>
+                     <input type="text" name="Dirección" id="adress" placeholder="Escriba su domicilio..."></div>
+                     <div><label for="city">Ciudad:</label>
+                     <input type="text" name="ciudad" id="city" placeholder="Escriba su ciudad..."></div>
+                     <div><label for="phone">Teléfono:</label>
+                     <input type="tel" name="telefono" id="phone" placeholder="Escriba su número..."></div>
+                     <div><label for="email">Correo electrónico:</label>
+                     <input type="email" name="correo" id="email" placeholder="Escriba su email...">
+                </div>
+            </fieldset>
+        </form>
+
+    <section>
+        <form action="#" method="post">
+            <div class="container">
+                <button type="submit" onClick="alert('Enviado')"class="button">Enviar Formulario</button>
+            </div>
+        </form>
+    </section>
+    <BR>
+    <BR>
+    <BR>
+    <hr>
+
+    <footer>
+        <div class="footer">
+            <p> Agradecimiento a EDEM y The Bridge por su apoyo y colaboración. </p>
+            <p> &copy; BootCamp 2023 MKGBS </p>
+        </div>
+    </footer>
+    
+</body>
+</html>
